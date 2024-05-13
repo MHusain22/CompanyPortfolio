@@ -1,0 +1,271 @@
+.Hero {
+  background: var(--var-color);
+}
+.h{
+    font-size: 40px;
+}
+h1 {
+  font-size: 2.4em;
+  font-weight: 650;
+  font-family: "Source Code Pro", sans-serif;
+  line-height: 1.1;
+  color: white;
+}
+h1 {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+p {
+  font-size: 1em;
+  font-weight: 500;
+  color: #c7c9d3;
+  font-family: "Open Sans", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #76daff;
+}
+
+#big-logo {
+  height: 100px;
+  width: 100px;
+  display: block;
+  margin: 20px;
+  margin-bottom: 20px;
+}
+.signup {
+  height: 40px;
+  width: 150px;
+  padding: 10px;
+  background-color: #47cf73;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  font-weight: 550;
+}
+#input-search.search-query {
+  border: none;
+  border-radius: 5px;
+  background-color: #717790;
+  color: white;
+}
+.description {
+  height: 100vh;
+  width: 100%;
+  /* max-width: 1200px; */
+  padding: 0 90px;
+  margin: 0 auto;
+  padding-top: 100px;
+  position: relative;
+  display: block;
+}
+#right {
+  margin-top: 400px;
+  bottom: auto;
+  width: 750px;
+  float: right;
+  margin-right: 90px;
+  position: absolute;
+  visibility: visible;
+}
+
+.column {
+  width: 50%;
+  float: left;
+  margin: 0 auto;
+  height: 75vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.editor {
+  height: 70%;
+  width: 80%;
+  border-radius: 10px;
+  background: linear-gradient(109.61deg, #4c4f5a 4.26%, #202125 84.84%);
+  margin: 20px;
+  right: 0;
+  float: right;
+}
+.editor-template {
+  height: 140px;
+  width: 300px;
+  background: #1d1e22;
+  border-radius: 6px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  right: 0;
+  float: right;
+  margin-top: -20px;
+  margin-bottom: 25px;
+  margin-right: 90px;
+}
+.editor-template:nth-child(2) {
+  margin-right: 20px;
+}
+.editor-template:nth-child(3) {
+  margin-right: 80px;
+
+  margin-bottom: 0px;
+}
+.title {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 20px;
+}
+.title > div {
+  width: auto;
+}
+.title > div:nth-child(3) {
+  float: right;
+  padding-right: 5px;
+  margin-left: auto;
+}
+i,
+code {
+  padding: 5px;
+  color: #c5c8d4;
+}
+.code {
+  padding-left: 5px;
+  padding-right: 5px;
+  height: auto;
+  width: 95%;
+  margin: 0 auto;
+}
+.burnt {
+  color: #a88038;
+}
+.yellow {
+  color: #e1ca72;
+}
+
+.green {
+  color: #74b087;
+}
+.purple {
+  color: #9f8198;
+}
+.orange {
+  color: #de7300;
+}
+.blue {
+  color: #7a99ad;
+}
+.three-item {
+  float: left;
+  width: 30%;
+  height: 50vh;
+  background-color: #2c303a;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 20px;
+}
+.three-main::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+#codepen-svg {
+  height: 55px;
+  width: 49px;
+  display: block;
+}
+.text-box {
+  padding: 10px;
+  height: auto;
+  width: auto;
+}
+.grey-button {
+  height: auto;
+  width: auto;
+  padding: 10px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-family: 1.3em;
+  border: none;
+  border-radius: 5px;
+  background: #444857;
+}
+.pro {
+  background-color: #ffdd40;
+  color: black;
+  border-radius: 2px;
+  font-weight: 600;
+  padding: 2px;
+  font-size: 1em;
+}
+#down {
+  position: absolute;
+  bottom: -10px;
+  left: -100px;
+  width: 900px;
+}
+@media screen and (max-width: 1000px){
+  .row{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .editor{
+    margin-top: -200px;
+  }
+  .column{
+    width: 100%;
+  }
+
+}
+@media screen and (max-width: 800px){
+  .editor{
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    height: 90vh;
+  }
+  .editor {
+    justify-content: center;
+    margin-top: 50px;
+    height: 45vh;
+    width: 80vw;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .editor-template {
+    margin-bottom: 30px;
+  }
+  .editor-template:nth-child(1) {
+    margin-right: -40px;
+  }
+  .editor-template:nth-child(3) {
+    margin-right: -25px;
+  }
+  #right {
+    display: none;
+  }
+  h {
+    font-size: 2em;
+  }
+  .three-item {
+    width: 90%;
+    height: auto;
+    justify-content: center;
+    margin-left: 23px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+  }
+  #down {
+    margin-bottom: -0px;
+    width: 95vw;
+    left: -15px;
+    margin-top: 10px;
+  }
+}

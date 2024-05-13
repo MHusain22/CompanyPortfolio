@@ -1,0 +1,89 @@
+.about{
+    background-color: var(--var-color);
+    color: white;
+    padding: 0 90px;
+    height: 100vh;
+}
+.aboutHeading{
+    text-align: center;
+}
+.aboutHeading h1{
+    font-size: 40px;
+    padding: 10px 0;
+    line-height: 55px;
+    color: var(--var-yellow);
+}
+.aboutHeading p{
+    font-size: 20px;
+    line-height: 35px;
+}
+.aboutCol p{
+    font-size: 30px;
+    color: var(--var-blue);
+}
+.aboutRow{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    /* padding: 0 50px; */
+}
+
+.aboutCol{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+}
+.AboutMain{
+    display: flex;
+    flex-basis: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftAbout{
+    /* width: 50%; */
+    color: black;
+    background-color: white;
+    padding: 40px;
+    border-radius: 5px;
+    height: 70%;
+    display: flex;
+}
+.leftAbout h1{
+    font-size: 30px;
+    margin: 10px 0;
+}
+.leftAbout p{
+    line-height: 30px;
+}
+Button{
+    margin: 20px 0;
+}
+.rightAbout{
+    width: 50%;
+}
+.rightAbout img{
+    width: 50%;
+}
+@media screen and (max-width:750px) {
+    .aboutHeading h1{
+        font-size: 30px;
+    }
+    .aboutCol p{
+        font-size: 20px;
+        line-height: 20px;
+    }
+}
+/* .rightAbout{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.rightAbout ul li{
+    font-size: 20px;
+    margin: 30px;
+    padding: 25px;
+    text-align: center;
+    border: 1px solid gray;
+} */

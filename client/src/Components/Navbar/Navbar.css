@@ -1,0 +1,31 @@
+.NavMain{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    background-color: rgba(29, 29, 29, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 0 90px;
+}
+.NavList ul{
+    display: flex;
+    background:none;
+}
+.logo{
+    font-size: 50px;
+    color: var(--var-blue);
+    font-weight: bolder;
+}
+.NavList ul li{
+    list-style: none;
+    margin: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    color: gray;
+}
+@media screen and (max-width: 800px){
+    .NavList{
+        display: none;
+    }
+}
