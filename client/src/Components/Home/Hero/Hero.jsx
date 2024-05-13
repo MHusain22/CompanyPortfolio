@@ -19,7 +19,7 @@ const Hero = () => {
               </p>
               <button className="signup">Let's chat</button>
             </div>
-            <div className="column">
+            <div className="column" id="downCol">
               <div className="editor">
                 <div className="editor-template" id="code1">
                   <div className="title">

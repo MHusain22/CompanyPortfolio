@@ -74,6 +74,16 @@ Button{
         line-height: 20px;
     }
 }
+@media screen and (max-width:500px) {
+    .about{
+        padding: 0 40px;
+        right: 20px;
+    }
+    .aboutHeading h1{
+        font-size: 25px;
+        line-height: 40px;
+    }
+}
 /* .rightAbout{
     width: 50%;
     display: flex;

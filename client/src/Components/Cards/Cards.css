@@ -30,3 +30,10 @@
         flex-direction: column;
     }
 }
+@media (max-width:500px) {
+    .cards{
+        padding: 0 50px;
+        padding-top: 200px;
+        height: 150vh;
+    }
+}
