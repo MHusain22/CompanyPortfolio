@@ -114,6 +114,10 @@
 @media (max-width: 400px){
     .ServicesMain{
         padding: 0;
+        padding-top: 110px;
+    }
+    .serviceHead{
+        padding-top: 200px;
     }
 }
 @media (max-width: 768px){

@@ -62,4 +62,8 @@
     .form{
         display: none;
     }
+    .contact{
+
+        padding: 0 40px;
+    }
 }
