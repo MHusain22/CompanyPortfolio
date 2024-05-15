@@ -111,6 +111,11 @@
         }
     
 }
+@media (max-width: 400px){
+    .ServicesMain{
+        padding: 0;
+    }
+}
 @media (max-width: 768px){
     .contain .card{
         max-width: 300px;
@@ -126,9 +131,7 @@
         height: 200px;
         left: 0;
     }
-    .contain .card .imgBx,.contain .card:hover .imgBx img{
-       /* max-width: 100px; */
-    }
+    
     .contain .card .content{
         position: relative;
         width: 100%;

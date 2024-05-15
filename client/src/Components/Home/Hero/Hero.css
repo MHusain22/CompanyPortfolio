@@ -269,7 +269,7 @@ code {
     margin-top: 10px;
   }
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 400px){
 
   .description {
     padding: 0 30px;
@@ -284,13 +284,13 @@ code {
   .editor-template{
     float: none;
   }
-  .editor-template:nth-child(2){
+  /* .editor-template:nth-child(2){
     margin-left: 50px;
     margin-top: -30px;
   }
   .editor-template:nth-child(3){
     margin-left: -20px;
-  }
+  } */
   /* #downCol{
     height: 900px;
   } */

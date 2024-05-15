@@ -12,101 +12,101 @@ import ai from "../Images/chip.png";
 const Services = () => {
   return (
     <div id="services">
-    <Head className="serviceHead">Services</Head>
-    <div className="ServicesMain">
-    <div class="contain">
-      <div class="card">
-        <div class="imgBx" data-text="Web Development">
-          <img src={coding} />
-        </div>
-        <div class="content">
-          <div>
-            <h3>Web Development</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut.
-            </p>
-            <a href="#">Read More</a>
+      <Head className="serviceHead">Services</Head>
+      <div className="ServicesMain">
+        <div class="contain">
+          <div class="card">
+            <div class="imgBx" data-text="Web Development">
+              <img src={coding} />
+            </div>
+            <div class="content">
+              <div>
+                <h3>Web Development</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut.
+                </p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="imgBx" data-text="Web Automation">
+              <img src={webd} />
+            </div>
+            <div class="content">
+              <div>
+                <h3>Web Automation</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut.
+                </p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="imgBx" data-text="AI ML">
+              <img src={ai} />
+            </div>
+            <div class="content">
+              <div>
+                <h3>AI ML</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut.
+                </p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="imgBx" data-text="Data Science">
+              <img src={datascience} />
+            </div>
+            <div class="content">
+              <div>
+                <h3>Data Science</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut.
+                </p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="imgBx" data-text="Devops">
+              <img src={devops} />
+            </div>
+            <div class="content">
+              <div>
+                <h3>Devops</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut.
+                </p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="imgBx" data-text="Cyber Security">
+              <img src={cs} />
+            </div>
+            <div class="content">
+              <div>
+                <h3>Cyber Security</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut.
+                </p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="card">
-        <div class="imgBx" data-text="Web Automation">
-          <img src={webd} />
-        </div>
-        <div class="content">
-          <div>
-            <h3>Web Automation</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut.
-            </p>
-            <a href="#">Read More</a>
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="imgBx" data-text="AI ML">
-          <img src={ai} />
-        </div>
-        <div class="content">
-          <div>
-            <h3>AI ML</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut.
-            </p>
-            <a href="#">Read More</a>
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="imgBx" data-text="Data Science">
-          <img src={datascience} />
-        </div>
-        <div class="content">
-          <div>
-            <h3>Data Science</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut.
-            </p>
-            <a href="#">Read More</a>
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="imgBx" data-text="Devops">
-          <img src={devops} />
-        </div>
-        <div class="content">
-          <div>
-            <h3>Devops</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut.
-            </p>
-            <a href="#">Read More</a>
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="imgBx" data-text="Cyber Security">
-          <img src={cs} />
-        </div>
-        <div class="content">
-          <div>
-            <h3>Cyber Security</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut.
-            </p>
-            <a href="#">Read More</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    </div>
     </div>
     // <div className="ServicesMain">
     //   <Head>Services</Head>
